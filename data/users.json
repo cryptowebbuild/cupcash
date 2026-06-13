@@ -1,0 +1,18 @@
+{
+  "123456": {
+    "id": "123456",
+    "first_name": "Player",
+    "last_name": "",
+    "username": "player_dev",
+    "balance": 0.0,
+    "total_earnings": 0.0,
+    "predictions_correct": 0,
+    "predictions_total": 0,
+    "referral_code": "9FDEE0BA",
+    "referred_by": "",
+    "referrals": [],
+    "streak": 0,
+    "joined_at": "2026-06-13T23:15:17.193428",
+    "last_active": "2026-06-13T23:15:30.643968"
+  }
+}
