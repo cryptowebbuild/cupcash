@@ -658,13 +658,16 @@ async function init() {
   }
 }
 
+// ── API CONFIG ──
+const API_BASE = 'https://api.clickrunclaw.com';
+
 // ── API HELPERS ──
-async function post(url, body) {
-  const r = await fetch(url, { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body) });
+async function post(path, body) {
+  const r = await fetch(API_BASE + path, { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body) });
   return r.json();
 }
-async function get(url) {
-  const r = await fetch(url);
+async function get(path) {
+  const r = await fetch(API_BASE + path);
   return r.json();
 }
 
